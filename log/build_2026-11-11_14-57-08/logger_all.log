@@ -1,0 +1,547 @@
+[0.143s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.143s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7be6364ac3a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7be6365a9c90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7be6365a9c90>>, mixin_verb=('build',))
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.194s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shambavi/ares_ws'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'ros'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extensions ['cmake', 'python']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'cmake'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'python'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extensions ['python_setup_py']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(android) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(results) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bridge) by extension 'ros'
+[0.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_bridge' with type 'ros.ament_python' and name 'ares_bridge'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'colcon_pkg'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['colcon_meta']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'colcon_meta'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extensions ['ros']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_bringup) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_bringup' with type 'ros.ament_cmake' and name 'ares_bringup'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extension 'ignore_ament_install'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extensions ['colcon_pkg']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_description) by extension 'ros'
+[0.233s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_description' with type 'ros.ament_cmake' and name 'ares_description'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_gazebo) by extension 'ros'
+[0.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_gazebo' with type 'ros.ament_cmake' and name 'ares_gazebo'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_health) by extension 'ros'
+[0.235s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_health' with type 'ros.ament_python' and name 'ares_health'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_navigation) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_navigation' with type 'ros.ament_cmake' and name 'ares_navigation'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extension 'ignore_ament_install'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extensions ['colcon_pkg']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extension 'colcon_pkg'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extensions ['colcon_meta']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extension 'colcon_meta'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extensions ['ros']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/ares_perception) by extension 'ros'
+[0.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ares_perception' with type 'ros.ament_python' and name 'ares_perception'
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 349 installed packages in /opt/ros/humble
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'ares_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_bridge', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_target' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] Level 5:colcon.colcon_core.verb:set package 'ares_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] DEBUG:colcon.colcon_core.verb:Building package 'ares_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_bringup', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'ares_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_description', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_description', 'symlink_install': True, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'ares_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_gazebo', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'ares_health' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'ares_health' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_health', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_health', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_health', 'symlink_install': True, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'ares_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_navigation', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'ares_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'ares_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shambavi/ares_ws/build/ares_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shambavi/ares_ws/install/ares_perception', 'merge_install': False, 'path': '/home/shambavi/ares_ws/src/ares_perception', 'symlink_install': True, 'test_result_base': None}
+[0.321s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_bridge' with build type 'ament_python'
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_bridge', 'ament_prefix_path')
+[0.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.328s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/hook/ament_prefix_path.ps1'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/hook/ament_prefix_path.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/hook/ament_prefix_path.sh'
+[0.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_bringup' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shambavi/ares_ws/src/ares_bringup'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.337s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_description' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shambavi/ares_ws/src/ares_description'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_gazebo' with build type 'ament_cmake'
+[0.341s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shambavi/ares_ws/src/ares_gazebo'
+[0.341s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.341s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.344s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_health' with build type 'ament_python'
+[0.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_health', 'ament_prefix_path')
+[0.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_health/share/ares_health/hook/ament_prefix_path.ps1'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_health/share/ares_health/hook/ament_prefix_path.dsv'
+[0.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_health/share/ares_health/hook/ament_prefix_path.sh'
+[0.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_navigation' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/shambavi/ares_ws/src/ares_navigation'
+[0.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/shambavi/ares_ws/src/ares_perception' with build type 'ament_python'
+[0.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_perception', 'ament_prefix_path')
+[0.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/hook/ament_prefix_path.ps1'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/hook/ament_prefix_path.dsv'
+[0.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/hook/ament_prefix_path.sh'
+[0.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shambavi/ares_ws/src/ares_bridge'
+[0.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_bringup
+[0.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_description
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_gazebo
+[0.852s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shambavi/ares_ws/src/ares_health'
+[0.852s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.852s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_navigation
+[1.156s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/shambavi/ares_ws/src/ares_perception'
+[1.157s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.157s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.721s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: dist_info, sdist, build_ext, check, bdist, init_catalog, bdist_dumb, install, build_py, symlink_data, install_data, bdist_rpm, rotate, setopt, compile_catalog, install_scripts, bdist_wheel, editable_wheel, bdist_egg, install_egg_info, install_lib, easy_install, update_catalog, alias, install_headers, build_scripts, develop, extract_messages, build, clean, build_clib, egg_info, saveopts
+[1.730s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: dist_info, sdist, build_ext, check, bdist, init_catalog, bdist_dumb, install, build_py, symlink_data, install_data, bdist_rpm, rotate, setopt, compile_catalog, install_scripts, bdist_wheel, editable_wheel, bdist_egg, install_egg_info, install_lib, easy_install, update_catalog, alias, install_headers, build_scripts, develop, extract_messages, build, clean, build_clib, egg_info, saveopts
+[1.785s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: dist_info, sdist, build_ext, check, bdist, init_catalog, bdist_dumb, install, build_py, symlink_data, install_data, bdist_rpm, rotate, setopt, compile_catalog, install_scripts, bdist_wheel, editable_wheel, bdist_egg, install_egg_info, install_lib, easy_install, update_catalog, alias, install_headers, build_scripts, develop, extract_messages, build, clean, build_clib, egg_info, saveopts
+[1.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_description
+[1.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_description -- -j12 -l12
+[1.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_gazebo
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_gazebo -- -j12 -l12
+[1.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_description -- -j12 -l12
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_description': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_description
+[1.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_gazebo -- -j12 -l12
+[1.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_gazebo
+[1.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_bringup
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_bringup -- -j12 -l12
+[2.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_bringup -- -j12 -l12
+[2.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_bringup
+[2.048s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --user, --index-url, --help, --install-dir, --quiet, --verbose, --no-user-cfg, --prefix
+[2.048s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/src/ares_bridge': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_bridge build --build-base /home/shambavi/ares_ws/build/ares_bridge/build install --record /home/shambavi/ares_ws/build/ares_bridge/install.log --install-scripts $base/lib/ares_bridge --single-version-externally-managed install_data
+[2.054s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --user, --index-url, --help, --install-dir, --quiet, --verbose, --no-user-cfg, --prefix
+[2.054s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/src/ares_health': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_health/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_health build --build-base /home/shambavi/ares_ws/build/ares_health/build install --record /home/shambavi/ares_ws/build/ares_health/install.log --install-scripts $base/lib/ares_health --single-version-externally-managed install_data
+[2.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/shambavi/ares_ws/src/ares_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shambavi/ares_ws/install/ares_navigation
+[2.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_navigation -- -j12 -l12
+[2.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_description)
+[2.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_description
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description' for CMake module files
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description' for CMake config files
+[2.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_description', 'cmake_prefix_path')
+[2.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_description/share/ares_description/hook/cmake_prefix_path.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_description/share/ares_description/hook/cmake_prefix_path.dsv'
+[2.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_description/share/ares_description/hook/cmake_prefix_path.sh'
+[2.151s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/bin'
+[2.151s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/lib/pkgconfig/ares_description.pc'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/lib/python3.10/site-packages'
+[2.152s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/bin'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.ps1'
+[2.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.dsv'
+[2.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.sh'
+[2.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.bash'
+[2.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.zsh'
+[2.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_description/share/colcon-core/packages/ares_description)
+[2.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_description)
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description' for CMake module files
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description' for CMake config files
+[2.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_description', 'cmake_prefix_path')
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_description/share/ares_description/hook/cmake_prefix_path.ps1'
+[2.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_description/share/ares_description/hook/cmake_prefix_path.dsv'
+[2.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_description/share/ares_description/hook/cmake_prefix_path.sh'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/bin'
+[2.164s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/lib/pkgconfig/ares_description.pc'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/lib/python3.10/site-packages'
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_description/bin'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.dsv'
+[2.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.sh'
+[2.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.bash'
+[2.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_description/share/ares_description/package.zsh'
+[2.169s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_description/share/colcon-core/packages/ares_description)
+[2.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_gazebo)
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo' for CMake module files
+[2.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_gazebo
+[2.172s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo' for CMake config files
+[2.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_gazebo', 'cmake_prefix_path')
+[2.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/hook/cmake_prefix_path.ps1'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/hook/cmake_prefix_path.dsv'
+[2.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/hook/cmake_prefix_path.sh'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/bin'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/lib/pkgconfig/ares_gazebo.pc'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/lib/python3.10/site-packages'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/bin'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.ps1'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.dsv'
+[2.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.sh'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.bash'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.zsh'
+[2.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_gazebo/share/colcon-core/packages/ares_gazebo)
+[2.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_gazebo)
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo' for CMake module files
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo' for CMake config files
+[2.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_gazebo', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/hook/cmake_prefix_path.ps1'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/hook/cmake_prefix_path.dsv'
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/hook/cmake_prefix_path.sh'
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/bin'
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/lib/pkgconfig/ares_gazebo.pc'
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/lib/python3.10/site-packages'
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_gazebo/bin'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.sh'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.bash'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/package.zsh'
+[2.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_gazebo/share/colcon-core/packages/ares_gazebo)
+[2.186s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --no-deps, --user, --index-url, --help, --install-dir, --quiet, --verbose, --no-user-cfg, --prefix
+[2.186s] INFO:colcon.colcon_core.task.python.build:No '--editable' capability in setuptools, falling back to full install
+[2.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/src/ares_perception': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_perception build --build-base /home/shambavi/ares_ws/build/ares_perception/build install --record /home/shambavi/ares_ws/build/ares_perception/install.log --install-scripts $base/lib/ares_perception --single-version-externally-managed install_data
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/shambavi/ares_ws/build/ares_navigation -- -j12 -l12
+[2.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/shambavi/ares_ws/build/ares_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_navigation
+[2.205s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_bringup)
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup' for CMake module files
+[2.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_bringup
+[2.207s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup' for CMake config files
+[2.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_bringup', 'cmake_prefix_path')
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.ps1'
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.dsv'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.sh'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/bin'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/lib/pkgconfig/ares_bringup.pc'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/lib/python3.10/site-packages'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/bin'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.dsv'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.sh'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.zsh'
+[2.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_bringup/share/colcon-core/packages/ares_bringup)
+[2.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_bringup)
+[2.216s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup' for CMake module files
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup' for CMake config files
+[2.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_bringup', 'cmake_prefix_path')
+[2.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.ps1'
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.dsv'
+[2.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/hook/cmake_prefix_path.sh'
+[2.219s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/bin'
+[2.219s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/lib/pkgconfig/ares_bringup.pc'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/lib/python3.10/site-packages'
+[2.220s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bringup/bin'
+[2.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.dsv'
+[2.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.sh'
+[2.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.bash'
+[2.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bringup/share/ares_bringup/package.zsh'
+[2.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_bringup/share/colcon-core/packages/ares_bringup)
+[2.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_navigation)
+[2.391s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation' for CMake module files
+[2.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/build/ares_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/shambavi/ares_ws/build/ares_navigation
+[2.392s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation' for CMake config files
+[2.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_navigation', 'cmake_prefix_path')
+[2.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/hook/cmake_prefix_path.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/hook/cmake_prefix_path.dsv'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/hook/cmake_prefix_path.sh'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/bin'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/lib/pkgconfig/ares_navigation.pc'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/lib/python3.10/site-packages'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/bin'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.ps1'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.dsv'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.sh'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.bash'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.zsh'
+[2.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_navigation/share/colcon-core/packages/ares_navigation)
+[2.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_navigation)
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation' for CMake module files
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation' for CMake config files
+[2.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_navigation', 'cmake_prefix_path')
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/hook/cmake_prefix_path.ps1'
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/hook/cmake_prefix_path.dsv'
+[2.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/hook/cmake_prefix_path.sh'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/bin'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/lib/pkgconfig/ares_navigation.pc'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/lib/python3.10/site-packages'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_navigation/bin'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.dsv'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.sh'
+[2.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.bash'
+[2.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_navigation/share/ares_navigation/package.zsh'
+[2.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_navigation/share/colcon-core/packages/ares_navigation)
+[2.566s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge' for CMake module files
+[2.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/src/ares_bridge' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_bridge build --build-base /home/shambavi/ares_ws/build/ares_bridge/build install --record /home/shambavi/ares_ws/build/ares_bridge/install.log --install-scripts $base/lib/ares_bridge --single-version-externally-managed install_data
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge' for CMake config files
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge/lib'
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge/bin'
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge/lib/pkgconfig/ares_bridge.pc'
+[2.568s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge/lib/python3.10/site-packages'
+[2.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_bridge', 'pythonpath')
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/hook/pythonpath.ps1'
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/hook/pythonpath.dsv'
+[2.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/hook/pythonpath.sh'
+[2.570s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_bridge/bin'
+[2.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_bridge)
+[2.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/package.ps1'
+[2.571s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/package.dsv'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/package.sh'
+[2.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/package.bash'
+[2.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_bridge/share/ares_bridge/package.zsh'
+[2.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_bridge/share/colcon-core/packages/ares_bridge)
+[2.583s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health' for CMake module files
+[2.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/src/ares_health' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_health/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_health build --build-base /home/shambavi/ares_ws/build/ares_health/build install --record /home/shambavi/ares_ws/build/ares_health/install.log --install-scripts $base/lib/ares_health --single-version-externally-managed install_data
+[2.584s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health' for CMake config files
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health/lib'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health/bin'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health/lib/pkgconfig/ares_health.pc'
+[2.585s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages'
+[2.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_health', 'pythonpath')
+[2.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_health/share/ares_health/hook/pythonpath.ps1'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_health/share/ares_health/hook/pythonpath.dsv'
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_health/share/ares_health/hook/pythonpath.sh'
+[2.588s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_health/bin'
+[2.588s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_health)
+[2.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_health/share/ares_health/package.ps1'
+[2.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_health/share/ares_health/package.dsv'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_health/share/ares_health/package.sh'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_health/share/ares_health/package.bash'
+[2.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_health/share/ares_health/package.zsh'
+[2.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_health/share/colcon-core/packages/ares_health)
+[2.692s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception' for CMake module files
+[2.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/shambavi/ares_ws/src/ares_perception' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_perception/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_perception/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_perception build --build-base /home/shambavi/ares_ws/build/ares_perception/build install --record /home/shambavi/ares_ws/build/ares_perception/install.log --install-scripts $base/lib/ares_perception --single-version-externally-managed install_data
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception' for CMake config files
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception/lib'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception/bin'
+[2.694s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception/lib/pkgconfig/ares_perception.pc'
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception/lib/python3.10/site-packages'
+[2.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('ares_perception', 'pythonpath')
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/hook/pythonpath.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/hook/pythonpath.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/hook/pythonpath.sh'
+[2.696s] Level 1:colcon.colcon_core.environment:checking '/home/shambavi/ares_ws/install/ares_perception/bin'
+[2.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ares_perception)
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/package.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/package.dsv'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/package.sh'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/package.bash'
+[2.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/shambavi/ares_ws/install/ares_perception/share/ares_perception/package.zsh'
+[2.698s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/shambavi/ares_ws/install/ares_perception/share/colcon-core/packages/ares_perception)
+[2.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.699s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.699s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.706s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.706s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.706s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.725s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shambavi/ares_ws/install/local_setup.ps1'
+[2.727s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shambavi/ares_ws/install/_local_setup_util_ps1.py'
+[2.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shambavi/ares_ws/install/setup.ps1'
+[2.731s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shambavi/ares_ws/install/local_setup.sh'
+[2.732s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/shambavi/ares_ws/install/_local_setup_util_sh.py'
+[2.732s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shambavi/ares_ws/install/setup.sh'
+[2.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shambavi/ares_ws/install/local_setup.bash'
+[2.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shambavi/ares_ws/install/setup.bash'
+[2.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/shambavi/ares_ws/install/local_setup.zsh'
+[2.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/shambavi/ares_ws/install/setup.zsh'

@@ -1,0 +1,4 @@
+source;share/ares_navigation/local_setup.bash
+source;share/ares_navigation/local_setup.dsv
+source;share/ares_navigation/local_setup.sh
+source;share/ares_navigation/local_setup.zsh

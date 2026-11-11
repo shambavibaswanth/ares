@@ -1,0 +1,28 @@
+[1.715s] Invoking command in '/home/shambavi/ares_ws/src/ares_health': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_health/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_health build --build-base /home/shambavi/ares_ws/build/ares_health/build install --record /home/shambavi/ares_ws/build/ares_health/install.log --install-scripts $base/lib/ares_health --single-version-externally-managed install_data
+[2.054s] running egg_info
+[2.075s] creating ../../build/ares_health/ares_health.egg-info
+[2.075s] writing ../../build/ares_health/ares_health.egg-info/PKG-INFO
+[2.076s] writing dependency_links to ../../build/ares_health/ares_health.egg-info/dependency_links.txt
+[2.076s] writing requirements to ../../build/ares_health/ares_health.egg-info/requires.txt
+[2.076s] writing top-level names to ../../build/ares_health/ares_health.egg-info/top_level.txt
+[2.076s] writing manifest file '../../build/ares_health/ares_health.egg-info/SOURCES.txt'
+[2.118s] reading manifest file '../../build/ares_health/ares_health.egg-info/SOURCES.txt'
+[2.120s] writing manifest file '../../build/ares_health/ares_health.egg-info/SOURCES.txt'
+[2.120s] running build
+[2.120s] running build_py
+[2.120s] creating /home/shambavi/ares_ws/build/ares_health/build/lib/ares_health
+[2.121s] copying ares_health/__init__.py -> /home/shambavi/ares_ws/build/ares_health/build/lib/ares_health
+[2.121s] running install
+[2.126s] running install_lib
+[2.146s] creating /home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages/ares_health
+[2.146s] copying /home/shambavi/ares_ws/build/ares_health/build/lib/ares_health/__init__.py -> /home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages/ares_health
+[2.146s] byte-compiling /home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages/ares_health/__init__.py to __init__.cpython-310.pyc
+[2.147s] running install_data
+[2.147s] creating /home/shambavi/ares_ws/install/ares_health/share/ament_index/resource_index/packages
+[2.148s] copying resource/ares_health -> /home/shambavi/ares_ws/install/ares_health/share/ament_index/resource_index/packages
+[2.148s] copying package.xml -> /home/shambavi/ares_ws/install/ares_health/share/ares_health
+[2.148s] running install_egg_info
+[2.169s] Copying ../../build/ares_health/ares_health.egg-info to /home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages/ares_health-0.0.0-py3.10.egg-info
+[2.170s] running install_scripts
+[2.210s] writing list of installed files to '/home/shambavi/ares_ws/build/ares_health/install.log'
+[2.240s] Invoked command in '/home/shambavi/ares_ws/src/ares_health' returned '0': PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/shambavi/ares_ws/build/ares_health/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shambavi/ares_ws/install/ares_health/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ares_health build --build-base /home/shambavi/ares_ws/build/ares_health/build install --record /home/shambavi/ares_ws/build/ares_health/install.log --install-scripts $base/lib/ares_health --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/ares_bridge/ares_bridge.egg-info/PKG-INFO
+../../build/ares_bridge/ares_bridge.egg-info/SOURCES.txt
+../../build/ares_bridge/ares_bridge.egg-info/dependency_links.txt
+../../build/ares_bridge/ares_bridge.egg-info/requires.txt
+../../build/ares_bridge/ares_bridge.egg-info/top_level.txt
+../../build/ares_bridge/ares_bridge.egg-info/zip-safe
+ares_bridge/__init__.py
+resource/ares_bridge
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
