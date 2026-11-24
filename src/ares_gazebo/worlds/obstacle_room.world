@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="obstacle_room">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+    <model name="walls">
+      <static>true</static>
+      <link name="link">
+        <collision name="n_c"><pose>0 5 0.5 0 0 0</pose><geometry><box><size>10.2 0.2 1</size></box></geometry></collision>
+        <visual name="n_v"><pose>0 5 0.5 0 0 0</pose><geometry><box><size>10.2 0.2 1</size></box></geometry></visual>
+        <collision name="s_c"><pose>0 -5 0.5 0 0 0</pose><geometry><box><size>10.2 0.2 1</size></box></geometry></collision>
+        <visual name="s_v"><pose>0 -5 0.5 0 0 0</pose><geometry><box><size>10.2 0.2 1</size></box></geometry></visual>
+        <collision name="e_c"><pose>5 0 0.5 0 0 0</pose><geometry><box><size>0.2 10.2 1</size></box></geometry></collision>
+        <visual name="e_v"><pose>5 0 0.5 0 0 0</pose><geometry><box><size>0.2 10.2 1</size></box></geometry></visual>
+        <collision name="w_c"><pose>-5 0 0.5 0 0 0</pose><geometry><box><size>0.2 10.2 1</size></box></geometry></collision>
+        <visual name="w_v"><pose>-5 0 0.5 0 0 0</pose><geometry><box><size>0.2 10.2 1</size></box></geometry></visual>
+      </link>
+    </model>
+    <model name="box1"><static>true</static><pose>2.5 1.5 0.4 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>0.8 0.8 0.8</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.8 0.8 0.8</size></box></geometry>
+          <material><ambient>0.8 0.2 0.2 1</ambient><diffuse>0.8 0.2 0.2 1</diffuse></material></visual>
+      </link></model>
+    <model name="box2"><static>true</static><pose>-2.0 -2.5 0.5 0 0 0.5</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>1.2 0.6 1.0</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>1.2 0.6 1.0</size></box></geometry>
+          <material><ambient>0.2 0.2 0.8 1</ambient><diffuse>0.2 0.2 0.8 1</diffuse></material></visual>
+      </link></model>
+    <model name="pillar"><static>true</static><pose>-1.5 2.5 0.6 0 0 0</pose>
+      <link name="link">
+        <collision name="c"><geometry><cylinder><radius>0.3</radius><length>1.2</length></cylinder></geometry></collision>
+        <visual name="v"><geometry><cylinder><radius>0.3</radius><length>1.2</length></cylinder></geometry>
+          <material><ambient>0.9 0.8 0.1 1</ambient><diffuse>0.9 0.8 0.1 1</diffuse></material></visual>
+      </link></model>
+    <model name="wall_partition"><static>true</static><pose>1.0 -2.0 0.5 0 0 1.5708</pose>
+      <link name="link">
+        <collision name="c"><geometry><box><size>3.0 0.2 1.0</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>3.0 0.2 1.0</size></box></geometry></visual>
+      </link></model>
+  </world>
+</sdf>

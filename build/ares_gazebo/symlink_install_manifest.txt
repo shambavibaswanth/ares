@@ -1,5 +1,7 @@
 /home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/worlds/.gitkeep
+/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/worlds/obstacle_room.world
 /home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/launch/.gitkeep
+/home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/launch/sim.launch.py
 /home/shambavi/ares_ws/install/ares_gazebo/share/ament_index/resource_index/package_run_dependencies/ares_gazebo
 /home/shambavi/ares_ws/install/ares_gazebo/share/ament_index/resource_index/parent_prefix_path/ares_gazebo
 /home/shambavi/ares_ws/install/ares_gazebo/share/ares_gazebo/environment/ament_prefix_path.sh

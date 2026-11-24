@@ -1,4 +1,5 @@
 /home/shambavi/ares_ws/install/ares_description/share/ares_description/urdf/.gitkeep
+/home/shambavi/ares_ws/install/ares_description/share/ares_description/urdf/ares.urdf.xacro
 /home/shambavi/ares_ws/install/ares_description/share/ares_description/meshes/.gitkeep
 /home/shambavi/ares_ws/install/ares_description/share/ares_description/rviz/.gitkeep
 /home/shambavi/ares_ws/install/ares_description/share/ament_index/resource_index/package_run_dependencies/ares_description
