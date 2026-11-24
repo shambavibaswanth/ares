@@ -130,8 +130,8 @@
     </gazebo>
   </xacro:macro>
   <xacro:ultrasonic name="front" x="0.2"  y="0"     yaw="0"/>
-  <xacro:ultrasonic name="left"  x="0.0"  y="0.14"  yaw="${PI/2}"/>
-  <xacro:ultrasonic name="right" x="0.0"  y="-0.14" yaw="${-PI/2}"/>
+  <xacro:ultrasonic name="left"  x="0.12" y="0.145"  yaw="${PI/2}"/>
+  <xacro:ultrasonic name="right" x="0.12" y="-0.145" yaw="${-PI/2}"/>
 
   <gazebo reference="lidar_link">
     <material>Gazebo/Red</material>

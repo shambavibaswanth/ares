@@ -1,6 +1,0 @@
-source;share/ares_health/hook/pythonpath.ps1
-source;share/ares_health/hook/pythonpath.dsv
-source;share/ares_health/hook/pythonpath.sh
-source;share/ares_health/hook/ament_prefix_path.ps1
-source;share/ares_health/hook/ament_prefix_path.dsv
-source;share/ares_health/hook/ament_prefix_path.sh
