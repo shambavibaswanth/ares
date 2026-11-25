@@ -1,0 +1,10 @@
+obstacle_avoidance:
+  ros__parameters:
+    mode: guard            # guard | auto | off
+    cmd_in: cmd_vel_raw    # driver commands come in here
+    cmd_out: cmd_vel       # safe commands go to the wheels
+    cmd_timeout: 0.0       # 0 = keep last command (keyboard style)
+    stop_dist: 0.25        # m, no motion towards an obstacle closer than this
+    slow_dist: 0.80        # m, start slowing down from here
+    auto_speed: 0.25       # m/s, cruising speed in auto mode
+    max_turn: 1.2          # rad/s
