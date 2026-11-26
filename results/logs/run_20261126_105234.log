@@ -1544,3 +1544,6 @@
 [yolo_detector-6] [INFO] [1795670892.798044310] [yolo_detector]: first stop sign detected (0.47) at unknown distance, +38 deg
 [gzserver-1] [1;33m[Wrn] [Publisher.cc:135] [0m[1;33mQueue limit reached for topic [0m[1;33m/gazebo/recon_site/pose/local/info[0m[1;33m, deleting message. [0m[1;33mThis warning is printed only once.[0m[1;33m
 [yolo_detector-6] [INFO] [1795671000.251443192] [yolo_detector]: first bench detected (0.47) at 4.2 m, +11 deg
+[yolo_detector-6] [INFO] [1795671110.675199222] [yolo_detector]: first chair detected (0.52) at 1.5 m, +22 deg
+[yolo_detector-6] [INFO] [1795671132.397946707] [yolo_detector]: first skateboard detected (0.47) at 1.1 m, -1 deg
+[yolo_detector-6] [INFO] [1795671159.400858658] [yolo_detector]: first orange detected (0.45) at 3.3 m, +20 deg

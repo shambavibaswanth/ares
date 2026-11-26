@@ -1,0 +1,14 @@
+leg,waypoint,x,y,result,time_s,distance_m,self_rescues
+1,outside the door,1.8,-2.4,reached,11.4,2.81,0
+2,lobby,4.5,-2.4,reached,11.0,2.66,0
+3,"lobby, by office door",6.2,-0.6,reached,9.9,2.45,0
+4,office,8.2,-0.6,reached,8.2,1.97,0
+5,"office, by back-room gap",10.35,-1.0,reached,9.1,2.2,0
+6,back room entrance,10.35,-2.9,reached,7.9,1.86,0
+7,back room centre,8.3,-3.5,reached,8.6,2.09,0
+8,"office, by back-room gap (return)",10.35,-1.0,reached,14.9,3.28,0
+9,office (return),8.2,-0.6,reached,8.9,2.14,0
+10,"lobby, by office door (return)",6.2,-0.6,reached,8.2,1.99,0
+11,lobby (return),4.5,-2.4,reached,9.9,2.45,0
+12,outside the door (return),1.8,-2.4,reached,11.1,2.68,0
+13,home,0.0,0.0,reached,11.8,2.93,0

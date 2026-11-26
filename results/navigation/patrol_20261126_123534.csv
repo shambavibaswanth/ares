@@ -1,0 +1,10 @@
+leg,waypoint,x,y,result,time_s,distance_m
+1,entrance path,1.5,-2.4,reached,13.6,2.66
+2,lobby,4.2,-2.4,reached,10.9,2.62
+3,"lobby, by inner door",6.0,-0.6,reached,12.2,2.5
+4,office,8.5,-0.6,reached,10.1,2.44
+5,"office, by back-room door",10.4,-1.0,reached,11.0,1.96
+6,back room (person found),10.4,-3.3,reached,9.1,2.19
+7,back room centre,8.5,-3.6,reached,7.7,1.84
+8,lobby (return),4.2,-2.4,failed,166.0,1.93
+9,start (return),0.0,0.0,failed,169.2,1.29

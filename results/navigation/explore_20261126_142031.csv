@@ -1,0 +1,5 @@
+time_s,explored_m2,goals_reached,goals_failed,frontiers_left,escapes
+0.5,3.4,0,0,1,0
+4.0,3.4,0,0,1,0
+7.6,3.4,0,0,1,0
+7.6,3.4,0,0,0,0
