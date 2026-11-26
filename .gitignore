@@ -11,3 +11,4 @@ results/*.bag
 third_party/
 src/ares_gazebo/models/*
 !src/ares_gazebo/models/.gitkeep
+results/**/*.webm
