@@ -10,6 +10,7 @@
   <depend>sensor_msgs</depend>
   <depend>std_msgs</depend>
   <exec_depend>ares_gazebo</exec_depend>
+  <exec_depend>ares_perception</exec_depend>
   <export>
     <build_type>ament_python</build_type>
   </export>

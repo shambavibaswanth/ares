@@ -1,10 +1,18 @@
 obstacle_avoidance:
   ros__parameters:
-    mode: guard            # guard | auto | off
-    cmd_in: cmd_vel_raw    # driver commands come in here
-    cmd_out: cmd_vel       # safe commands go to the wheels
-    cmd_timeout: 0.0       # 0 = keep last command (keyboard style)
-    stop_dist: 0.25        # m, no motion towards an obstacle closer than this
-    slow_dist: 0.80        # m, start slowing down from here
-    auto_speed: 0.25       # m/s, cruising speed in auto mode
-    max_turn: 1.2          # rad/s
+    mode: guard              # guard | auto | off
+    cmd_in: cmd_vel_raw      # driver commands come in here
+    cmd_out: cmd_vel         # safe commands go to the wheels
+    cmd_timeout: 0.0         # 0 = keep last command (keyboard style)
+    stop_dist: 0.12          # m from the bumper: react only when very near
+    slow_dist: 0.45          # m: start slowing down from here
+    auto_speed: 0.25         # m/s cruising speed in auto mode
+    max_turn: 1.2            # rad/s
+    min_range: 0.22          # m: closer LiDAR returns are the robot itself
+    explore_half_width: 0.32 # m: auto mode keeps room to turn around
+    novelty_weight: 0.8      # how strongly auto mode prefers places it has not been
+    cell_size: 0.5           # m: exploration memory grid
+    use_detections: true     # YOLO objects become (small) keep-out zones
+    keepout: "person:0.5,dog:0.4,cat:0.3,car:0.3,truck:0.3,bus:0.3,bicycle:0.3,motorcycle:0.3,default:0.15"
+    person_stop_dist: 1.0    # m: auto mode pauses for a person this close in front
+    person_wait: 5.0         # s: then goes around
